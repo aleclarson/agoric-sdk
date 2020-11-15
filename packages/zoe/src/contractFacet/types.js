@@ -184,7 +184,7 @@
 /**
  * @callback ContractStartFn
  * @param {ContractFacet} zcf
- * @returns {ContractStartFnResult}
+ * @returns {ContractStartFnResult|Promise<ContractStartFnResult>}
  */
 
 /**
